@@ -7,7 +7,7 @@
         <!--View Controller - Item 1-->
         <scene sceneID="GNe-BD-7Fy">
             <objects>
-                <viewController id="oxq-hz-jnU" sceneMemberID="viewController">
+                <viewController id="oxq-hz-jnU" customClass="GTAViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="QEw-pD-Zzc"/>
                         <viewControllerLayoutGuide type="bottom" id="mJU-YN-jT8"/>
@@ -35,7 +35,7 @@
         <scene sceneID="rCd-0H-1Cl">
             <objects>
                 <tabBarController definesPresentationContext="YES" id="LeR-cD-s1U" sceneMemberID="viewController">
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="I1n-Y1-5u9">
                         <rect key="frame" x="129" y="330" width="163" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
@@ -52,27 +52,46 @@
             </objects>
             <point key="canvasLocation" x="-170" y="7"/>
         </scene>
-        <!--Table View Controller - PS3 Cheats-->
+        <!--View Controller - PS3 Cheats-->
         <scene sceneID="iDJ-L3-aeQ">
             <objects>
-                <tableViewController id="Ve6-r2-uJ4" sceneMemberID="viewController">
+                <tableViewController id="Ve6-r2-uJ4" customClass="PS3ViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="Dhb-I3-0ey">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="6Ot-ae-oCF">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" textLabel="Pht-Ig-Tsy" detailTextLabel="wAA-WT-B4S" style="IBUITableViewCellStyleSubtitle" id="6Ot-ae-oCF">
                                 <rect key="frame" x="0.0" y="86" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="6Ot-ae-oCF" id="hVG-8r-Oxw">
                                     <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Pht-Ig-Tsy">
+                                            <rect key="frame" x="15" y="3" width="34" height="22"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="wAA-WT-B4S">
+                                            <rect key="frame" x="15" y="25" width="43" height="15"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
                                 </tableViewCellContentView>
                                 <connections>
                                     <segue destination="hzS-I6-6xo" kind="push" id="Z25-k7-vF8"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="Ve6-r2-uJ4" id="67D-uG-g08"/>
+                        </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="PS3 Cheats" id="Fqp-Lk-RJ1"/>
                 </tableViewController>
@@ -80,10 +99,10 @@
             </objects>
             <point key="canvasLocation" x="1222" y="-696"/>
         </scene>
-        <!--View Controller-->
+        <!--Cheat Detail View Controller-->
         <scene sceneID="T2h-UL-AWP">
             <objects>
-                <viewController id="hzS-I6-6xo" sceneMemberID="viewController">
+                <viewController id="hzS-I6-6xo" customClass="CheatDetailViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="qBd-I5-jPI"/>
                         <viewControllerLayoutGuide type="bottom" id="8TP-mz-hm6"/>
@@ -91,9 +110,35 @@
                     <view key="view" contentMode="scaleToFill" id="dKr-Bc-sdn">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cheat Name:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nsW-Qe-ZvC">
+                                <rect key="frame" x="56" y="83" width="209" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Code:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="eAN-Wf-hcq">
+                                <rect key="frame" x="20" y="254" width="280" height="59"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="ikh-Jl-QKV">
+                                <rect key="frame" x="20" y="134" width="280" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="YdT-K3-62h"/>
+                    <connections>
+                        <outlet property="codeLabel" destination="eAN-Wf-hcq" id="D4n-qg-UaS"/>
+                        <outlet property="descriptionLabel" destination="ikh-Jl-QKV" id="uDq-3f-eic"/>
+                        <outlet property="nameLabel" destination="nsW-Qe-ZvC" id="lnx-Ou-pjI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wCi-OI-21B" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
