@@ -7,6 +7,7 @@
 //
 
 #import "CheatDetailViewController.h"
+#import <AVFoundation/AVSpeechSynthesis.h>
 
 @interface CheatDetailViewController ()
 
@@ -38,4 +39,15 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+
+
+- (IBAction)speak:(UIButton *)sender {
+    AVSpeechUtterance *utterance = [AVSpeechUtterance
+                                    speechUtteranceWithString: self.codeLabel.text];
+    AVSpeechSynthesizer *synth = [[AVSpeechSynthesizer alloc] init];
+    utterance.rate = AVSpeechUtteranceMinimumSpeechRate; // Speech Rate
+    
+    [synth speakUtterance:utterance];
+}
 @end

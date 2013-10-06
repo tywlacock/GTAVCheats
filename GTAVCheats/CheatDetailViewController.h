@@ -16,4 +16,6 @@
 @property (strong, nonatomic) IBOutlet UILabel *codeLabel;
 @property (strong, nonatomic) IBOutlet UILabel *descriptionLabel;
 
+- (IBAction)speak:(UIButton *)sender;
+
 @end
