@@ -25,6 +25,7 @@
 		D053D58F17FFCF6E001789A2 /* CheatDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D053D58E17FFCF6E001789A2 /* CheatDetailViewController.m */; };
 		D0954FD81800D482008F99C9 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0954FD71800D482008F99C9 /* AudioToolbox.framework */; };
 		D0954FDA1800D489008F99C9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0954FD91800D489008F99C9 /* AVFoundation.framework */; };
+		D0954FDC1801E3B7008F99C9 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0954FDB1801E3B7008F99C9 /* iAd.framework */; };
 		DE9F15763524480195BF92E6 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4477E254816A4185AEE8C74F /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +67,7 @@
 		D053D58E17FFCF6E001789A2 /* CheatDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheatDetailViewController.m; sourceTree = "<group>"; };
 		D0954FD71800D482008F99C9 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		D0954FD91800D489008F99C9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D0954FDB1801E3B7008F99C9 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0954FDC1801E3B7008F99C9 /* iAd.framework in Frameworks */,
 				D0954FDA1800D489008F99C9 /* AVFoundation.framework in Frameworks */,
 				D0954FD81800D482008F99C9 /* AudioToolbox.framework in Frameworks */,
 				D053D55817FFA108001789A2 /* CoreGraphics.framework in Frameworks */,
@@ -118,6 +121,7 @@
 		D053D55417FFA108001789A2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D0954FDB1801E3B7008F99C9 /* iAd.framework */,
 				D0954FD91800D489008F99C9 /* AVFoundation.framework */,
 				D0954FD71800D482008F99C9 /* AudioToolbox.framework */,
 				D053D55517FFA108001789A2 /* Foundation.framework */,

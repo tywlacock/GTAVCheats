@@ -28,7 +28,6 @@
 
 
 @interface PS3ViewController ()
-
 @end
 
 @implementation PS3ViewController
@@ -37,17 +36,26 @@
 // -------------------------------------------------------------------------- //
 - (void)makeJSONRequest
 {
+    NSString *cheatKey = [[NSString alloc] init];
+    
+    
+    if ([self.navigationItem.title  isEqual: @"PS3 Cheats"]) {
+         cheatKey = @"ps3";
+    } else {
+        cheatKey = @"xbox";
+    }
+    
     AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
     [manager GET:@"http://www.tylacock.com/cheats.json" parameters:nil
          success:^(AFHTTPRequestOperation *operation, id responseObject) {
-             self.jsonFromAFNetworking = [responseObject objectForKey:@"ps3"];
+             self.jsonFromAFNetworking = [responseObject objectForKey:cheatKey];
              [self.tableView reloadData];
          }
          failure:^(AFHTTPRequestOperation *operation, NSError *error) {
              NSLog(@"Error: %@", error);
     }];
     
-
+    
 }
 
 
