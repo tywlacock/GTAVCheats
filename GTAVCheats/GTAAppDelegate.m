@@ -28,6 +28,7 @@
     
     // Back and Done Button color change
     [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
+    
 
     return YES;
 }

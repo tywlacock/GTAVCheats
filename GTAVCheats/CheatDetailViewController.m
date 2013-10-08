@@ -27,7 +27,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
+    self.navigationItem.title = [self.cheatDetail objectForKey:@"name"];
     self.nameLabel.text = [self.cheatDetail objectForKey:@"name"];
     self.descriptionLabel.text = [self.cheatDetail objectForKey:@"description"];
     self.codeLabel.text = [self.cheatDetail objectForKey:@"code"];
