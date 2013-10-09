@@ -16,6 +16,7 @@
                                 <rect key="frame" x="101" y="123" width="99" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <adBannerView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="z6W-mJ-zAy">
@@ -23,7 +24,7 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </adBannerView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 1" id="3Cd-gg-DiT"/>
                 </viewController>
@@ -34,7 +35,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="rCd-0H-1Cl">
             <objects>
-                <tabBarController definesPresentationContext="YES" id="LeR-cD-s1U" sceneMemberID="viewController">
+                <tabBarController definesPresentationContext="YES" modalTransitionStyle="partialCurl" id="LeR-cD-s1U" sceneMemberID="viewController">
                     <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="I1n-Y1-5u9">
                         <rect key="frame" x="129" y="330" width="163" height="49"/>
@@ -158,11 +159,11 @@
             </objects>
             <point key="canvasLocation" x="1877" y="-348"/>
         </scene>
-        <!--Navigation Controller - Item-->
+        <!--Navigation Controller - PS3-->
         <scene sceneID="e77-7G-RZx">
             <objects>
                 <navigationController definesPresentationContext="YES" id="LVi-OF-iw8" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="owk-AW-Sn3"/>
+                    <tabBarItem key="tabBarItem" title="PS3" id="owk-AW-Sn3"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="eop-fG-K6I">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -267,11 +268,11 @@
             </objects>
             <point key="canvasLocation" x="1795" y="744"/>
         </scene>
-        <!--Navigation Controller - Item-->
+        <!--Navigation Controller - General-->
         <scene sceneID="RCE-Ti-Xjh">
             <objects>
                 <navigationController definesPresentationContext="YES" id="uGy-V7-e5C" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="eQs-Hg-fXk"/>
+                    <tabBarItem key="tabBarItem" title="General" id="eQs-Hg-fXk"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="q7h-YC-Voc">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -283,11 +284,11 @@
             </objects>
             <point key="canvasLocation" x="689" y="749"/>
         </scene>
-        <!--Navigation Controller - Item-->
+        <!--Navigation Controller - Xbox-->
         <scene sceneID="BT6-Wd-VRd">
             <objects>
                 <navigationController definesPresentationContext="YES" id="iAW-lM-xVU" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="f6r-xv-P3M"/>
+                    <tabBarItem key="tabBarItem" title="Xbox" id="f6r-xv-P3M"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="SvS-Y2-MuB">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>

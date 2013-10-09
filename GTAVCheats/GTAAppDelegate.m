@@ -14,6 +14,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [[UITabBar appearance] setBarTintColor:[UIColor colorWithRed:33.0/255.0 green:33.0/255.0 blue:33.0/255.0 alpha:1.0]];
+    [[UITabBar appearance] setTintColor:[UIColor yellowColor]];
+    
     // Adjusts the color of navbar
     [[UINavigationBar appearance] setBarTintColor:UIColorFromRGB(0x000000)];
     
