@@ -12,4 +12,7 @@
 
 @property (nonatomic, strong) NSArray *jsonFromAFNetworking;
 @property (nonatomic, strong) NSArray *finishedCheatArray;
+
+
+
 @end

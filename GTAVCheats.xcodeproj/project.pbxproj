@@ -23,6 +23,7 @@
 		D053D58117FFA109001789A2 /* GTAVCheatsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D053D58017FFA109001789A2 /* GTAVCheatsTests.m */; };
 		D053D58C17FFCEEB001789A2 /* PS3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D053D58B17FFCEEB001789A2 /* PS3ViewController.m */; };
 		D053D58F17FFCF6E001789A2 /* CheatDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D053D58E17FFCF6E001789A2 /* CheatDetailViewController.m */; };
+		D08F49571806388D009573B9 /* gta5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D08F49561806388D009573B9 /* gta5.jpg */; };
 		D0954FD81800D482008F99C9 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0954FD71800D482008F99C9 /* AudioToolbox.framework */; };
 		D0954FDA1800D489008F99C9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0954FD91800D489008F99C9 /* AVFoundation.framework */; };
 		D0954FDC1801E3B7008F99C9 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0954FDB1801E3B7008F99C9 /* iAd.framework */; };
@@ -65,6 +66,7 @@
 		D053D58B17FFCEEB001789A2 /* PS3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PS3ViewController.m; sourceTree = "<group>"; };
 		D053D58D17FFCF6E001789A2 /* CheatDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheatDetailViewController.h; sourceTree = "<group>"; };
 		D053D58E17FFCF6E001789A2 /* CheatDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheatDetailViewController.m; sourceTree = "<group>"; };
+		D08F49561806388D009573B9 /* gta5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = gta5.jpg; path = ../../../../Desktop/gta5.jpg; sourceTree = "<group>"; };
 		D0954FD71800D482008F99C9 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		D0954FD91800D489008F99C9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		D0954FDB1801E3B7008F99C9 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
@@ -155,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				D053D55D17FFA108001789A2 /* GTAVCheats-Info.plist */,
+				D08F49561806388D009573B9 /* gta5.jpg */,
 				D053D55E17FFA108001789A2 /* InfoPlist.strings */,
 				D053D56117FFA108001789A2 /* main.m */,
 				D053D56317FFA108001789A2 /* GTAVCheats-Prefix.pch */,
@@ -262,6 +265,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D08F49571806388D009573B9 /* gta5.jpg in Resources */,
 				D053D56E17FFA109001789A2 /* Images.xcassets in Resources */,
 				D053D56017FFA108001789A2 /* InfoPlist.strings in Resources */,
 				D053D56917FFA109001789A2 /* Main.storyboard in Resources */,

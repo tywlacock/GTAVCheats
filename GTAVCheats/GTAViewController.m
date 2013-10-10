@@ -17,7 +17,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    self.banner.delegate = self;
+    UIImage *backgroundImage = [[UIImage alloc]init];
+    backgroundImage = [UIImage imageNamed:@"gta5.jpg"];
+    [self.view setBackgroundColor:[UIColor colorWithPatternImage:backgroundImage]];
 }
 
 - (void)didReceiveMemoryWarning

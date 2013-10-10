@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <iAd/iAd.h>
 
-@interface GTAViewController : UIViewController
+
+@interface GTAViewController : UIViewController <ADBannerViewDelegate>
+
+@property (weak, nonatomic) IBOutlet ADBannerView *banner;
+
 
 @end
