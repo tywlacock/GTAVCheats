@@ -16,6 +16,8 @@
 @property (strong, nonatomic) IBOutlet UILabel *codeLabel;
 @property (strong, nonatomic) IBOutlet UILabel *descriptionLabel;
 
+@property (weak, nonatomic) IBOutlet UIWebView *video;
+
 - (IBAction)speak:(UIButton *)sender;
 
 @end
