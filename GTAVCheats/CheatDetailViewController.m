@@ -27,41 +27,24 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-//    NSString *videoURL = @"<iframe width=\"420\" height=\"315\" src=\"www.youtube.com/embed/hIsNTRm2GlE\" frameborder=\"0\" allowfullscreen></iframe>";
-//    
-//    NSString *html = @"\
-//    <html><head>\
-//    <style type=\"text/css\">\
-//    body {\
-//    background-color: transparent;\
-//    color: white;\
-//    }\
-//    </style>\
-//    </head><body style=\"margin:0\">\
-//    <embed id=\"yt\" src=\"www.youtube.com/v/hIsNTRm2GlE?version=3&amp;hl=en_US\" type=\"application/x-shockwave-flash\" \
-//    width=\"320\" height=\"200\"></embed>\
-//    </body></html>";
-//    
     
-    
-    NSURL *url = [NSURL URLWithString:@"http://www.youtube.com/watch?v=hIsNTRm2GlE"];
+    // Loads Video URL from JSON into webview
+    NSURL *url = [NSURL URLWithString:[self.cheatDetail objectForKey:@"url"]];
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
     [self.video loadRequest:request];
     
     
-    
+    // Sets Labels and Titles from JSON
     self.navigationItem.title = [self.cheatDetail objectForKey:@"name"];
     self.nameLabel.text = [self.cheatDetail objectForKey:@"name"];
     self.descriptionLabel.text = [self.cheatDetail objectForKey:@"description"];
     self.codeLabel.text = [self.cheatDetail objectForKey:@"code"];
     
-//    [self.video loadHTMLString:html baseURL:nil];
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 

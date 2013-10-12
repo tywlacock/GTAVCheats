@@ -75,7 +75,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.finishedCheatArray = [[NSArray alloc] init];
     [self makeJSONRequest];
     
 }
