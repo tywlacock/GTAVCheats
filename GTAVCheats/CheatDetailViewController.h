@@ -12,9 +12,9 @@
 
 @property (nonatomic, strong) NSDictionary *cheatDetail;
 
-@property (strong, nonatomic) IBOutlet UILabel *nameLabel;
-@property (strong, nonatomic) IBOutlet UILabel *codeLabel;
-@property (strong, nonatomic) IBOutlet UILabel *descriptionLabel;
+@property (weak, nonatomic) IBOutlet UILabel *nameLabel;
+@property (weak, nonatomic) IBOutlet UILabel *codeLabel;
+@property (weak, nonatomic) IBOutlet UITextView *descriptionLabel;
 
 @property (weak, nonatomic) IBOutlet UIWebView *video;
 
