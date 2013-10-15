@@ -37,6 +37,7 @@
 - (void)makeJSONRequest
 {
     NSString *cheatKey = [[NSString alloc] init];
+    NSString *filePath = [NSHomeDirectory() stringByAppendingPathComponent:@"Documents"];
     
     
     if ([self.navigationItem.title  isEqual: @"PS3 Cheats"]) {
@@ -49,6 +50,8 @@
     [manager GET:@"http://www.tylacock.com/cheats.json" parameters:nil
          success:^(AFHTTPRequestOperation *operation, id responseObject) {
              self.jsonFromAFNetworking = [responseObject objectForKey:cheatKey];
+             [self.jsonFromAFNetworking writeToFile:filePath atomically:YES];
+             
              [self.tableView reloadData];
          }
          failure:^(AFHTTPRequestOperation *operation, NSError *error) {
