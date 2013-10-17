@@ -78,7 +78,7 @@
 {
     [super viewDidLoad];
     [self makeJSONRequest];
-    
+    [self.tableView setSeparatorStyle:UITableViewCellSeparatorStyleNone];
 }
 
 - (void)didReceiveMemoryWarning
@@ -115,6 +115,7 @@
     cell.textLabel.text = [tempDict objectForKey:@"name"];
     cell.detailTextLabel.text = [tempDict objectForKey:@"code"];
     
+    
     return cell;
 }
 
@@ -125,6 +126,5 @@
     CheatDetailViewController *cheatDetailViewController = (CheatDetailViewController *)segue.destinationViewController;
     cheatDetailViewController.cheatDetail = [self.jsonFromAFNetworking objectAtIndex:indexPath.row];
 }
-
 
 @end
