@@ -29,7 +29,7 @@
                         </subviews>
                         <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Main" image="info-26.png" id="3Cd-gg-DiT"/>
+                    <tabBarItem key="tabBarItem" title="Main" image="i.png" id="3Cd-gg-DiT"/>
                     <connections>
                         <outlet property="banner" destination="fDr-gy-qX5" id="RgP-h1-zfh"/>
                     </connections>
@@ -169,7 +169,7 @@
         <scene sceneID="e77-7G-RZx">
             <objects>
                 <navigationController definesPresentationContext="YES" id="LVi-OF-iw8" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="PS3" image="ps-26.png" id="owk-AW-Sn3"/>
+                    <tabBarItem key="tabBarItem" title="PS3" image="p.png" id="owk-AW-Sn3"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="eop-fG-K6I">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -271,11 +271,11 @@
             </objects>
             <point key="canvasLocation" x="1795" y="744"/>
         </scene>
-        <!--Navigation Controller - General-->
+        <!--Navigation Controller - General Tips-->
         <scene sceneID="RCE-Ti-Xjh">
             <objects>
                 <navigationController definesPresentationContext="YES" id="uGy-V7-e5C" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="General" id="eQs-Hg-fXk"/>
+                    <tabBarItem key="tabBarItem" title="General Tips" image="doc.png" id="eQs-Hg-fXk"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="q7h-YC-Voc">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -291,7 +291,7 @@
         <scene sceneID="BT6-Wd-VRd">
             <objects>
                 <navigationController definesPresentationContext="YES" id="iAW-lM-xVU" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Xbox" image="xbox-26.png" id="f6r-xv-P3M"/>
+                    <tabBarItem key="tabBarItem" title="Xbox" image="x.png" id="f6r-xv-P3M"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="SvS-Y2-MuB">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -305,9 +305,10 @@
         </scene>
     </scenes>
     <resources>
-        <image name="info-26.png" width="26" height="26"/>
-        <image name="ps-26.png" width="26" height="26"/>
-        <image name="xbox-26.png" width="26" height="26"/>
+        <image name="doc.png" width="26" height="26"/>
+        <image name="i.png" width="26" height="26"/>
+        <image name="p.png" width="26" height="26"/>
+        <image name="x.png" width="26" height="26"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>

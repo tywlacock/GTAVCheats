@@ -23,16 +23,19 @@
 		D053D58117FFA109001789A2 /* GTAVCheatsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D053D58017FFA109001789A2 /* GTAVCheatsTests.m */; };
 		D053D58C17FFCEEB001789A2 /* PS3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D053D58B17FFCEEB001789A2 /* PS3ViewController.m */; };
 		D053D58F17FFCF6E001789A2 /* CheatDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D053D58E17FFCF6E001789A2 /* CheatDetailViewController.m */; };
+		D08A7BAB1810BCB500A0D7ED /* i.png in Resources */ = {isa = PBXBuildFile; fileRef = D08A7BAA1810BCB500A0D7ED /* i.png */; };
+		D08A7BAD1810BCDB00A0D7ED /* i@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D08A7BAC1810BCDB00A0D7ED /* i@2x.png */; };
+		D08A7BB01810BD1C00A0D7ED /* p.png in Resources */ = {isa = PBXBuildFile; fileRef = D08A7BAE1810BD1C00A0D7ED /* p.png */; };
+		D08A7BB11810BD1C00A0D7ED /* p@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D08A7BAF1810BD1C00A0D7ED /* p@2x.png */; };
+		D08A7BB41810BD2600A0D7ED /* x.png in Resources */ = {isa = PBXBuildFile; fileRef = D08A7BB21810BD2600A0D7ED /* x.png */; };
+		D08A7BB51810BD2600A0D7ED /* x@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D08A7BB31810BD2600A0D7ED /* x@2x.png */; };
+		D08A7BB81810BD8200A0D7ED /* doc.png in Resources */ = {isa = PBXBuildFile; fileRef = D08A7BB61810BD8200A0D7ED /* doc.png */; };
+		D08A7BB91810BD8200A0D7ED /* doc@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D08A7BB71810BD8200A0D7ED /* doc@2x.png */; };
 		D08F49571806388D009573B9 /* gta5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D08F49561806388D009573B9 /* gta5.jpg */; };
 		D08F495918064303009573B9 /* gta5small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D08F495818064303009573B9 /* gta5small.jpg */; };
 		D0954FD81800D482008F99C9 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0954FD71800D482008F99C9 /* AudioToolbox.framework */; };
 		D0954FDA1800D489008F99C9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0954FD91800D489008F99C9 /* AVFoundation.framework */; };
 		D0954FDC1801E3B7008F99C9 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0954FDB1801E3B7008F99C9 /* iAd.framework */; };
-		D0C1DB991810B64B00528A76 /* xbox-512.png in Resources */ = {isa = PBXBuildFile; fileRef = D0C1DB981810B64B00528A76 /* xbox-512.png */; };
-		D0C1DB9B1810B68B00528A76 /* xbox-64.png in Resources */ = {isa = PBXBuildFile; fileRef = D0C1DB9A1810B68B00528A76 /* xbox-64.png */; };
-		D0C1DB9D1810B6B800528A76 /* xbox-26.png in Resources */ = {isa = PBXBuildFile; fileRef = D0C1DB9C1810B6B800528A76 /* xbox-26.png */; };
-		D0C1DB9F1810B6DB00528A76 /* ps-26.png in Resources */ = {isa = PBXBuildFile; fileRef = D0C1DB9E1810B6DB00528A76 /* ps-26.png */; };
-		D0C1DBA11810B79600528A76 /* info-26.png in Resources */ = {isa = PBXBuildFile; fileRef = D0C1DBA01810B79600528A76 /* info-26.png */; };
 		DE9F15763524480195BF92E6 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4477E254816A4185AEE8C74F /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -72,16 +75,19 @@
 		D053D58B17FFCEEB001789A2 /* PS3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PS3ViewController.m; sourceTree = "<group>"; };
 		D053D58D17FFCF6E001789A2 /* CheatDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheatDetailViewController.h; sourceTree = "<group>"; };
 		D053D58E17FFCF6E001789A2 /* CheatDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheatDetailViewController.m; sourceTree = "<group>"; };
+		D08A7BAA1810BCB500A0D7ED /* i.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = i.png; sourceTree = "<group>"; };
+		D08A7BAC1810BCDB00A0D7ED /* i@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "i@2x.png"; sourceTree = "<group>"; };
+		D08A7BAE1810BD1C00A0D7ED /* p.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = p.png; sourceTree = "<group>"; };
+		D08A7BAF1810BD1C00A0D7ED /* p@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "p@2x.png"; sourceTree = "<group>"; };
+		D08A7BB21810BD2600A0D7ED /* x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x.png; sourceTree = "<group>"; };
+		D08A7BB31810BD2600A0D7ED /* x@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "x@2x.png"; sourceTree = "<group>"; };
+		D08A7BB61810BD8200A0D7ED /* doc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doc.png; sourceTree = "<group>"; };
+		D08A7BB71810BD8200A0D7ED /* doc@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "doc@2x.png"; sourceTree = "<group>"; };
 		D08F49561806388D009573B9 /* gta5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = gta5.jpg; path = ../../../../Desktop/gta5.jpg; sourceTree = "<group>"; };
 		D08F495818064303009573B9 /* gta5small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = gta5small.jpg; path = ../../../../Desktop/gta5small.jpg; sourceTree = "<group>"; };
 		D0954FD71800D482008F99C9 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		D0954FD91800D489008F99C9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		D0954FDB1801E3B7008F99C9 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
-		D0C1DB981810B64B00528A76 /* xbox-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xbox-512.png"; sourceTree = "<group>"; };
-		D0C1DB9A1810B68B00528A76 /* xbox-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xbox-64.png"; sourceTree = "<group>"; };
-		D0C1DB9C1810B6B800528A76 /* xbox-26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xbox-26.png"; sourceTree = "<group>"; };
-		D0C1DB9E1810B6DB00528A76 /* ps-26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ps-26.png"; sourceTree = "<group>"; };
-		D0C1DBA01810B79600528A76 /* info-26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "info-26.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,11 +174,14 @@
 		D053D55C17FFA108001789A2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				D0C1DBA01810B79600528A76 /* info-26.png */,
-				D0C1DB9E1810B6DB00528A76 /* ps-26.png */,
-				D0C1DB9C1810B6B800528A76 /* xbox-26.png */,
-				D0C1DB9A1810B68B00528A76 /* xbox-64.png */,
-				D0C1DB981810B64B00528A76 /* xbox-512.png */,
+				D08A7BAE1810BD1C00A0D7ED /* p.png */,
+				D08A7BB21810BD2600A0D7ED /* x.png */,
+				D08A7BB61810BD8200A0D7ED /* doc.png */,
+				D08A7BB71810BD8200A0D7ED /* doc@2x.png */,
+				D08A7BB31810BD2600A0D7ED /* x@2x.png */,
+				D08A7BAF1810BD1C00A0D7ED /* p@2x.png */,
+				D08A7BAC1810BCDB00A0D7ED /* i@2x.png */,
+				D08A7BAA1810BCB500A0D7ED /* i.png */,
 				D08F495818064303009573B9 /* gta5small.jpg */,
 				D053D55D17FFA108001789A2 /* GTAVCheats-Info.plist */,
 				D08F49561806388D009573B9 /* gta5.jpg */,
@@ -283,16 +292,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D08A7BB81810BD8200A0D7ED /* doc.png in Resources */,
+				D08A7BB01810BD1C00A0D7ED /* p.png in Resources */,
 				D08F49571806388D009573B9 /* gta5.jpg in Resources */,
+				D08A7BB51810BD2600A0D7ED /* x@2x.png in Resources */,
+				D08A7BB91810BD8200A0D7ED /* doc@2x.png in Resources */,
+				D08A7BB41810BD2600A0D7ED /* x.png in Resources */,
+				D08A7BB11810BD1C00A0D7ED /* p@2x.png in Resources */,
 				D08F495918064303009573B9 /* gta5small.jpg in Resources */,
 				D053D56E17FFA109001789A2 /* Images.xcassets in Resources */,
-				D0C1DB9B1810B68B00528A76 /* xbox-64.png in Resources */,
-				D0C1DB9D1810B6B800528A76 /* xbox-26.png in Resources */,
-				D0C1DBA11810B79600528A76 /* info-26.png in Resources */,
-				D0C1DB9F1810B6DB00528A76 /* ps-26.png in Resources */,
+				D08A7BAB1810BCB500A0D7ED /* i.png in Resources */,
+				D08A7BAD1810BCDB00A0D7ED /* i@2x.png in Resources */,
 				D053D56017FFA108001789A2 /* InfoPlist.strings in Resources */,
 				D053D56917FFA109001789A2 /* Main.storyboard in Resources */,
-				D0C1DB991810B64B00528A76 /* xbox-512.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
