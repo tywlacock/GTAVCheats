@@ -28,6 +28,11 @@
 		D0954FD81800D482008F99C9 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0954FD71800D482008F99C9 /* AudioToolbox.framework */; };
 		D0954FDA1800D489008F99C9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0954FD91800D489008F99C9 /* AVFoundation.framework */; };
 		D0954FDC1801E3B7008F99C9 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0954FDB1801E3B7008F99C9 /* iAd.framework */; };
+		D0C1DB991810B64B00528A76 /* xbox-512.png in Resources */ = {isa = PBXBuildFile; fileRef = D0C1DB981810B64B00528A76 /* xbox-512.png */; };
+		D0C1DB9B1810B68B00528A76 /* xbox-64.png in Resources */ = {isa = PBXBuildFile; fileRef = D0C1DB9A1810B68B00528A76 /* xbox-64.png */; };
+		D0C1DB9D1810B6B800528A76 /* xbox-26.png in Resources */ = {isa = PBXBuildFile; fileRef = D0C1DB9C1810B6B800528A76 /* xbox-26.png */; };
+		D0C1DB9F1810B6DB00528A76 /* ps-26.png in Resources */ = {isa = PBXBuildFile; fileRef = D0C1DB9E1810B6DB00528A76 /* ps-26.png */; };
+		D0C1DBA11810B79600528A76 /* info-26.png in Resources */ = {isa = PBXBuildFile; fileRef = D0C1DBA01810B79600528A76 /* info-26.png */; };
 		DE9F15763524480195BF92E6 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4477E254816A4185AEE8C74F /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -72,6 +77,11 @@
 		D0954FD71800D482008F99C9 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		D0954FD91800D489008F99C9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		D0954FDB1801E3B7008F99C9 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		D0C1DB981810B64B00528A76 /* xbox-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xbox-512.png"; sourceTree = "<group>"; };
+		D0C1DB9A1810B68B00528A76 /* xbox-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xbox-64.png"; sourceTree = "<group>"; };
+		D0C1DB9C1810B6B800528A76 /* xbox-26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xbox-26.png"; sourceTree = "<group>"; };
+		D0C1DB9E1810B6DB00528A76 /* ps-26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ps-26.png"; sourceTree = "<group>"; };
+		D0C1DBA01810B79600528A76 /* info-26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "info-26.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +168,11 @@
 		D053D55C17FFA108001789A2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D0C1DBA01810B79600528A76 /* info-26.png */,
+				D0C1DB9E1810B6DB00528A76 /* ps-26.png */,
+				D0C1DB9C1810B6B800528A76 /* xbox-26.png */,
+				D0C1DB9A1810B68B00528A76 /* xbox-64.png */,
+				D0C1DB981810B64B00528A76 /* xbox-512.png */,
 				D08F495818064303009573B9 /* gta5small.jpg */,
 				D053D55D17FFA108001789A2 /* GTAVCheats-Info.plist */,
 				D08F49561806388D009573B9 /* gta5.jpg */,
@@ -271,8 +286,13 @@
 				D08F49571806388D009573B9 /* gta5.jpg in Resources */,
 				D08F495918064303009573B9 /* gta5small.jpg in Resources */,
 				D053D56E17FFA109001789A2 /* Images.xcassets in Resources */,
+				D0C1DB9B1810B68B00528A76 /* xbox-64.png in Resources */,
+				D0C1DB9D1810B6B800528A76 /* xbox-26.png in Resources */,
+				D0C1DBA11810B79600528A76 /* info-26.png in Resources */,
+				D0C1DB9F1810B6DB00528A76 /* ps-26.png in Resources */,
 				D053D56017FFA108001789A2 /* InfoPlist.strings in Resources */,
 				D053D56917FFA109001789A2 /* Main.storyboard in Resources */,
+				D0C1DB991810B64B00528A76 /* xbox-512.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

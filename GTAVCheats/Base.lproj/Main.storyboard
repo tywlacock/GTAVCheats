@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="LeR-cD-s1U">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="LeR-cD-s1U">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
     </dependencies>
     <scenes>
-        <!--View Controller - Item 1-->
+        <!--View Controller - Main-->
         <scene sceneID="GNe-BD-7Fy">
             <objects>
                 <viewController id="oxq-hz-jnU" customClass="GTAViewController" sceneMemberID="viewController">
@@ -29,7 +29,7 @@
                         </subviews>
                         <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="3Cd-gg-DiT"/>
+                    <tabBarItem key="tabBarItem" title="Main" image="info-26.png" id="3Cd-gg-DiT"/>
                     <connections>
                         <outlet property="banner" destination="fDr-gy-qX5" id="RgP-h1-zfh"/>
                     </connections>
@@ -169,7 +169,7 @@
         <scene sceneID="e77-7G-RZx">
             <objects>
                 <navigationController definesPresentationContext="YES" id="LVi-OF-iw8" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="PS3" id="owk-AW-Sn3"/>
+                    <tabBarItem key="tabBarItem" title="PS3" image="ps-26.png" id="owk-AW-Sn3"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="eop-fG-K6I">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -291,7 +291,7 @@
         <scene sceneID="BT6-Wd-VRd">
             <objects>
                 <navigationController definesPresentationContext="YES" id="iAW-lM-xVU" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Xbox" id="f6r-xv-P3M"/>
+                    <tabBarItem key="tabBarItem" title="Xbox" image="xbox-26.png" id="f6r-xv-P3M"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="SvS-Y2-MuB">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -304,6 +304,11 @@
             <point key="canvasLocation" x="686" y="7"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="info-26.png" width="26" height="26"/>
+        <image name="ps-26.png" width="26" height="26"/>
+        <image name="xbox-26.png" width="26" height="26"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

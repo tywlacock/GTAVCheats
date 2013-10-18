@@ -51,7 +51,6 @@
          success:^(AFHTTPRequestOperation *operation, id responseObject) {
              self.jsonFromAFNetworking = [responseObject objectForKey:cheatKey];
              [self.jsonFromAFNetworking writeToFile:filePath atomically:YES];
-             
              [self.tableView reloadData];
          }
          failure:^(AFHTTPRequestOperation *operation, NSError *error) {
@@ -65,15 +64,6 @@
 // --------------------------------------------------
 // Initializor Methods
 // --------------------------------------------------
-- (id)initWithStyle:(UITableViewStyle)style
-{
-    self = [super initWithStyle:style];
-    if (self) {
-        
-    }
-    return self;
-}
-
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -95,7 +85,6 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-    // Return the number of sections.
     return 1;
 }
 
