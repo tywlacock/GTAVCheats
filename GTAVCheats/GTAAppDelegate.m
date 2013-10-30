@@ -8,6 +8,7 @@
 
 #import "GTAAppDelegate.h"
 #define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+#define PRICEDOWN(s) [UIFont fontWithName:@"pricedown" size:s]
 
 
 @implementation GTAAppDelegate
@@ -24,7 +25,7 @@
     // Title Font Customization
     [[UINavigationBar appearance] setTitleTextAttributes: [NSDictionary dictionaryWithObjectsAndKeys:
                                                            [UIColor colorWithRed:245.0/255.0 green:245.0/255.0 blue:245.0/255.0 alpha:1.0], NSForegroundColorAttributeName,
-                                                           [UIFont fontWithName:@"HelveticaNeue-CondensedBlack" size:21.0], NSFontAttributeName, nil]];
+                                                           PRICEDOWN(22.0f), NSFontAttributeName, nil]];
     
     
     // Back and Done Button color change

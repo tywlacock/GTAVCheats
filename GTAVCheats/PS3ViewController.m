@@ -26,6 +26,8 @@
 #import "UIProgressView+AFNetworking.h"
 #import "UIWebView+AFNetworking.h"
 
+#define PRICEDOWN(s) [UIFont fontWithName:@"pricedown" size:s]
+
 
 @interface PS3ViewController ()
 @end
@@ -69,6 +71,9 @@
     [super viewDidLoad];
     [self makeJSONRequest];
     [self.tableView setSeparatorStyle:UITableViewCellSeparatorStyleNone];
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning

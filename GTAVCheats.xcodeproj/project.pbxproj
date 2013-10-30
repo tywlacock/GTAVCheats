@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D006C24C1820A752002525B1 /* pricedown.otf in Resources */ = {isa = PBXBuildFile; fileRef = D006C24B1820A752002525B1 /* pricedown.otf */; };
 		D053D55617FFA108001789A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D053D55517FFA108001789A2 /* Foundation.framework */; };
 		D053D55817FFA108001789A2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D053D55717FFA108001789A2 /* CoreGraphics.framework */; };
 		D053D55A17FFA108001789A2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D053D55917FFA108001789A2 /* UIKit.framework */; };
@@ -52,6 +53,7 @@
 /* Begin PBXFileReference section */
 		4477E254816A4185AEE8C74F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B261EBA7F19B4E81894072F9 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		D006C24B1820A752002525B1 /* pricedown.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = pricedown.otf; sourceTree = "<group>"; };
 		D053D55217FFA108001789A2 /* GTAVCheats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GTAVCheats.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D053D55517FFA108001789A2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D053D55717FFA108001789A2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -174,6 +176,7 @@
 		D053D55C17FFA108001789A2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D006C24B1820A752002525B1 /* pricedown.otf */,
 				D08A7BAE1810BD1C00A0D7ED /* p.png */,
 				D08A7BB21810BD2600A0D7ED /* x.png */,
 				D08A7BB61810BD8200A0D7ED /* doc.png */,
@@ -294,6 +297,7 @@
 			files = (
 				D08A7BB81810BD8200A0D7ED /* doc.png in Resources */,
 				D08A7BB01810BD1C00A0D7ED /* p.png in Resources */,
+				D006C24C1820A752002525B1 /* pricedown.otf in Resources */,
 				D08F49571806388D009573B9 /* gta5.jpg in Resources */,
 				D08A7BB51810BD2600A0D7ED /* x@2x.png in Resources */,
 				D08A7BB91810BD8200A0D7ED /* doc@2x.png in Resources */,

@@ -8,6 +8,8 @@
 
 #import "GTAViewController.h"
 
+#define PRICEDOWN(s) [UIFont fontWithName:@"pricedown" size:s]
+
 @interface GTAViewController ()
 
 @end
@@ -21,6 +23,7 @@
     UIImage *backgroundImage = [[UIImage alloc]init];
     backgroundImage = [UIImage imageNamed:@"gta5small.jpg"];
     [self.view setBackgroundColor:[UIColor colorWithPatternImage:backgroundImage]];
+    self.testLabel.font = PRICEDOWN(15.0f);
 }
 
 - (void)didReceiveMemoryWarning

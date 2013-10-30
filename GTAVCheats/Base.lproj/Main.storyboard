@@ -15,7 +15,7 @@
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Initial Screen" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Qe2-SI-Cf0">
                                 <rect key="frame" x="101" y="123" width="99" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -32,6 +32,7 @@
                     <tabBarItem key="tabBarItem" title="Main" image="i.png" id="3Cd-gg-DiT"/>
                     <connections>
                         <outlet property="banner" destination="fDr-gy-qX5" id="RgP-h1-zfh"/>
+                        <outlet property="testLabel" destination="Qe2-SI-Cf0" id="D7D-nB-zXp"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PIF-mn-UdM" userLabel="First Responder" sceneMemberID="firstResponder"/>
