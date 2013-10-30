@@ -101,6 +101,15 @@
     
     // Configure the cell...
     NSDictionary *tempDict = [self.jsonFromAFNetworking objectAtIndex:indexPath.row];
+    
+    if ([[tempDict objectForKey:@"type"] isEqualToString:@"player"]) {
+        cell.textLabel.textColor = [UIColor colorWithRed:52.0/255.0 green:152.0/255.0 blue:219.0/255.0 alpha:1.0];
+    } else if ([[tempDict objectForKey:@"type"] isEqualToString:@"world"]) {
+        cell.textLabel.textColor = [UIColor colorWithRed:46.0/255.0 green:204.0/255.0 blue:113.0/255.0 alpha:1.0];
+    } else {
+        cell.textLabel.textColor = [UIColor colorWithRed:243.0/255.0 green:156.0/255.0 blue:18.0/255.0 alpha:1.0];
+    }
+    
     cell.textLabel.text = [tempDict objectForKey:@"name"];
     cell.detailTextLabel.text = [tempDict objectForKey:@"code"];
     
