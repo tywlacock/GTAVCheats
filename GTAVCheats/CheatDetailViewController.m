@@ -37,8 +37,13 @@
     // Sets Labels and Titles from JSON
     self.navigationItem.title = [self.cheatDetail objectForKey:@"name"];
     self.nameLabel.text = [self.cheatDetail objectForKey:@"name"];
-    self.descriptionLabel.text = [self.cheatDetail objectForKey:@"description"];
     self.codeLabel.text = [self.cheatDetail objectForKey:@"code"];
+    
+    if ([[self.cheatDetail objectForKey:@"description"] isEqualToString: @""]) {
+        self.descriptionLabel.text = [self.cheatDetail objectForKey:@"name"];
+    } else {
+        self.descriptionLabel.text = [self.cheatDetail objectForKey:@"description"];
+    }
     
 }
 
@@ -55,6 +60,7 @@
                                     speechUtteranceWithString: self.codeLabel.text];
     AVSpeechSynthesizer *synth = [[AVSpeechSynthesizer alloc] init];
     utterance.rate = AVSpeechUtteranceMinimumSpeechRate; // Speech Rate
+    utterance.voice = [AVSpeechSynthesisVoice voiceWithLanguage:@"en-us"];
     
     [synth speakUtterance:utterance];
 }
