@@ -20,10 +20,12 @@
 {
     [super viewDidLoad];
     self.banner.delegate = self;
-    UIImage *backgroundImage = [[UIImage alloc]init];
-    backgroundImage = [UIImage imageNamed:@"gta5small.jpg"];
-    [self.view setBackgroundColor:[UIColor colorWithPatternImage:backgroundImage]];
-    self.testLabel.font = PRICEDOWN(15.0f);
+    // Background image
+//    UIImage *backgroundImage = [[UIImage alloc]init];
+//    backgroundImage = [UIImage imageNamed:@"gta5small.jpg"];
+//    [self.view setBackgroundColor:[UIColor colorWithPatternImage:backgroundImage]];
+    
+    self.testLabel.font = PRICEDOWN(30.0f);
 }
 
 - (void)didReceiveMemoryWarning
