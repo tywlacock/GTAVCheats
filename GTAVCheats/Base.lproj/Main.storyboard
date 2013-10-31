@@ -30,13 +30,53 @@
                                 <rect key="frame" x="38" y="21" width="245" height="190"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Player" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="BKf-fJ-ZuQ">
+                                <rect key="frame" x="20" y="280" width="280" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.32624203930000001" green="0.87719228319999998" blue="0.34188961569999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.088520662483919432" green="0.21907308756936641" blue="0.62804926658163263" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="World" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Axj-ZJ-fVH">
+                                <rect key="frame" x="20" y="309" width="280" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.088520662479999998" green="0.21907308759999999" blue="0.62804926660000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.1803118263101707" green="0.55685985331632648" blue="0.073514659702284976" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Spawn" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Psj-eX-Qqj">
+                                <rect key="frame" x="20" y="341" width="280" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.83175223210000004" green="0.65507536239999997" blue="0.40361505120000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.87719228319999998" green="0.25547297735268432" blue="0.051946777062650551" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cheat Legend" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="VjZ-kr-LEu">
+                                <rect key="frame" x="20" y="251" width="280" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="SXO-Tp-PnS">
+                                <rect key="frame" x="38" y="410" width="0.0" height="0.0"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Main" image="i.png" id="3Cd-gg-DiT"/>
                     <connections>
                         <outlet property="banner" destination="fDr-gy-qX5" id="RgP-h1-zfh"/>
+                        <outlet property="playerLabel" destination="BKf-fJ-ZuQ" id="hbD-jM-23B"/>
+                        <outlet property="spawnLabel" destination="Psj-eX-Qqj" id="8Hu-Sc-v09"/>
                         <outlet property="testLabel" destination="Qe2-SI-Cf0" id="D7D-nB-zXp"/>
+                        <outlet property="worldLabel" destination="Axj-ZJ-fVH" id="7uj-Oa-aJP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PIF-mn-UdM" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -57,6 +97,7 @@
                         <segue destination="oxq-hz-jnU" kind="relationship" relationship="viewControllers" id="f3j-ex-euG"/>
                         <segue destination="LVi-OF-iw8" kind="relationship" relationship="viewControllers" id="PM7-EJ-Dn9"/>
                         <segue destination="iAW-lM-xVU" kind="relationship" relationship="viewControllers" id="PAA-Tf-y4G"/>
+                        <segue destination="5Xg-wm-0xV" kind="relationship" relationship="viewControllers" id="nxo-Qo-kgS"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JvP-wQ-1eH" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -248,10 +289,26 @@
             </objects>
             <point key="canvasLocation" x="686" y="7"/>
         </scene>
+        <!--View Controller - Settings-->
+        <scene sceneID="vbC-hR-Sov">
+            <objects>
+                <viewController id="5Xg-wm-0xV" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hA1-5k-KrF">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Settings" image="settings.png" id="WAH-MF-x1o"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lxn-qg-bgG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="685" y="709"/>
+        </scene>
     </scenes>
     <resources>
         <image name="i.png" width="26" height="26"/>
         <image name="p.png" width="26" height="26"/>
+        <image name="settings.png" width="32" height="32"/>
         <image name="v-logo.png" width="450" height="450"/>
         <image name="x.png" width="26" height="26"/>
     </resources>

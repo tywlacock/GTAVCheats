@@ -20,10 +20,11 @@
 {
     [super viewDidLoad];
     self.banner.delegate = self;
-    // Background image
-//    UIImage *backgroundImage = [[UIImage alloc]init];
-//    backgroundImage = [UIImage imageNamed:@"gta5small.jpg"];
-//    [self.view setBackgroundColor:[UIColor colorWithPatternImage:backgroundImage]];
+    
+    // Set Font styling
+    self.playerLabel.backgroundColor = [UIColor colorWithRed:52.0/255.0 green:152.0/255.0 blue:219.0/255.0 alpha:1.0];
+    self.worldLabel.backgroundColor = [UIColor colorWithRed:46.0/255.0 green:204.0/255.0 blue:113.0/255.0 alpha:1.0];
+    self.spawnLabel.backgroundColor = [UIColor colorWithRed:243.0/255.0 green:156.0/255.0 blue:18.0/255.0 alpha:1.0];
     
     self.testLabel.font = PRICEDOWN(30.0f);
 }

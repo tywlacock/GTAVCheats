@@ -15,5 +15,8 @@
 @property (weak, nonatomic) IBOutlet ADBannerView *banner;
 
 @property (weak, nonatomic) IBOutlet UILabel *testLabel;
+@property (weak, nonatomic) IBOutlet UILabel *playerLabel;
+@property (weak, nonatomic) IBOutlet UILabel *worldLabel;
+@property (weak, nonatomic) IBOutlet UILabel *spawnLabel;
 
 @end
