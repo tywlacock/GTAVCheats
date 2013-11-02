@@ -9,6 +9,7 @@
 #import "CheatDetailViewController.h"
 #import <AVFoundation/AVSpeechSynthesis.h>
 
+
 @interface CheatDetailViewController ()
 @end
 
@@ -52,10 +53,6 @@
 {
     [super didReceiveMemoryWarning];
 }
-
-
-
-
 
 - (IBAction)speak:(UIButton *)sender {
     AVSpeechUtterance *utterance = [AVSpeechUtterance
