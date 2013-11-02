@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D001CE231824A1EF007F9503 /* out.plist in Resources */ = {isa = PBXBuildFile; fileRef = D001CE221824A1EF007F9503 /* out.plist */; };
+		D001CE271824A2BE007F9503 /* cheats.plist in Resources */ = {isa = PBXBuildFile; fileRef = D001CE261824A2BE007F9503 /* cheats.plist */; };
 		D006C24C1820A752002525B1 /* pricedown.otf in Resources */ = {isa = PBXBuildFile; fileRef = D006C24B1820A752002525B1 /* pricedown.otf */; };
 		D006C24E1820AB05002525B1 /* v-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D006C24D1820AB05002525B1 /* v-logo.png */; };
 		D053D55617FFA108001789A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D053D55517FFA108001789A2 /* Foundation.framework */; };
@@ -56,6 +58,9 @@
 /* Begin PBXFileReference section */
 		4477E254816A4185AEE8C74F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B261EBA7F19B4E81894072F9 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		D001CE221824A1EF007F9503 /* out.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = out.plist; sourceTree = "<group>"; };
+		D001CE261824A2BE007F9503 /* cheats.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cheats.plist; sourceTree = "<group>"; };
+		D001CE281824B027007F9503 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		D006C24B1820A752002525B1 /* pricedown.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = pricedown.otf; sourceTree = "<group>"; };
 		D006C24D1820AB05002525B1 /* v-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v-logo.png"; sourceTree = "<group>"; };
 		D053D55217FFA108001789A2 /* GTAVCheats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GTAVCheats.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -149,6 +154,7 @@
 		D053D55417FFA108001789A2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D001CE281824B027007F9503 /* MediaPlayer.framework */,
 				D0954FDB1801E3B7008F99C9 /* iAd.framework */,
 				D0954FD91800D489008F99C9 /* AVFoundation.framework */,
 				D0954FD71800D482008F99C9 /* AudioToolbox.framework */,
@@ -175,6 +181,7 @@
 				D053D58E17FFCF6E001789A2 /* CheatDetailViewController.m */,
 				D053D56D17FFA109001789A2 /* Images.xcassets */,
 				D053D55C17FFA108001789A2 /* Supporting Files */,
+				D001CE261824A2BE007F9503 /* cheats.plist */,
 			);
 			path = GTAVCheats;
 			sourceTree = "<group>";
@@ -182,6 +189,7 @@
 		D053D55C17FFA108001789A2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D001CE221824A1EF007F9503 /* out.plist */,
 				D0F25E6F1821ECCD005747E8 /* settings.png */,
 				D0F25E701821ECCD005747E8 /* settings@2x.png */,
 				D006C24D1820AB05002525B1 /* v-logo.png */,
@@ -305,12 +313,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0F25E711821ECCD005747E8 /* settings.png in Resources */,
+				D001CE271824A2BE007F9503 /* cheats.plist in Resources */,
 				D08A7BB81810BD8200A0D7ED /* doc.png in Resources */,
 				D08A7BB01810BD1C00A0D7ED /* p.png in Resources */,
 				D006C24C1820A752002525B1 /* pricedown.otf in Resources */,
 				D08F49571806388D009573B9 /* gta5.jpg in Resources */,
 				D0F25E721821ECCD005747E8 /* settings@2x.png in Resources */,
 				D08A7BB51810BD2600A0D7ED /* x@2x.png in Resources */,
+				D001CE231824A1EF007F9503 /* out.plist in Resources */,
 				D08A7BB91810BD8200A0D7ED /* doc@2x.png in Resources */,
 				D08A7BB41810BD2600A0D7ED /* x.png in Resources */,
 				D08A7BB11810BD1C00A0D7ED /* p@2x.png in Resources */,

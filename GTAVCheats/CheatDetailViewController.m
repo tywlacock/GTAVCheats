@@ -10,7 +10,6 @@
 #import <AVFoundation/AVSpeechSynthesis.h>
 
 @interface CheatDetailViewController ()
-
 @end
 
 @implementation CheatDetailViewController
@@ -27,12 +26,15 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [self configureLabel];
     
+}
+
+- (void)configureLabel {
     // Loads Video URL from JSON into webview
     NSURL *url = [NSURL URLWithString:[self.cheatDetail objectForKey:@"url"]];
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
     [self.video loadRequest:request];
-    
     
     // Sets Labels and Titles from JSON
     self.navigationItem.title = [self.cheatDetail objectForKey:@"name"];
@@ -44,13 +46,13 @@
     } else {
         self.descriptionLabel.text = [self.cheatDetail objectForKey:@"description"];
     }
-    
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
 }
+
 
 
 

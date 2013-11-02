@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ps3</key>
+	<array>
+		<dict>
+			<key>code</key>
+			<string>Right, X, Right, Left, Right, R1, Right, Left, X, Triangle</string>
+			<key>description</key>
+			<string>Lasts for 5 minutes before deactivating. Simply re-enter the code to reactivate.</string>
+			<key>name</key>
+			<string>Invincibility</string>
+			<key>type</key>
+			<string>player</string>
+			<key>url</key>
+			<string>http://www.youtube.com/watch?v=aq__oJ1_4CA</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<string>Triangle, R2, Left, L1, X, Right, Triangle, Down, Square, L1, L1, L1</string>
+			<key>description</key>
+			<string></string>
+			<key>name</key>
+			<string>Weapons</string>
+			<key>type</key>
+			<string>player</string>
+			<key>url</key>
+			<string>http://www.youtube.com/watch?v=2z1c2qmge6U</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<string>O, L1, Triangle, R2, X, Square, O, Right, Square, L1, L1, L1</string>
+			<key>description</key>
+			<string></string>
+			<key>name</key>
+			<string>Max Health and Armor</string>
+			<key>type</key>
+			<string>player</string>
+			<key>url</key>
+			<string>http://www.youtube.com/watch?v=PsGqF8PnbQ0</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<string>Triangle, Right, Right, Left, Right, Square, O, Left</string>
+			<key>description</key>
+			<string></string>
+			<key>name</key>
+			<string>Drunk Mode</string>
+			<key>type</key>
+			<string>player</string>
+			<key>url</key>
+			<string>http://www.youtube.com/watch?v=P8D5cDXv3-g</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<string>Right, Square, X, Left, R1, R2, Left, Right, Right, L1, L1, L1</string>
+			<key>description</key>
+			<string>Guns fire explosive bullets.</string>
+			<key>name</key>
+			<string>Explosive Ammo Rounds</string>
+			<key>type</key>
+			<string>player</string>
+			<key>url</key>
+			<string>http://www.youtube.com/watch?v=fSKhJBUc3Tg</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<string>Right, Left, X, Triangle, R1, O, O, O, L2</string>
+			<key>description</key>
+			<string></string>
+			<key>name</key>
+			<string>Explosive Melee Attacks</string>
+			<key>type</key>
+			<string>player</string>
+			<key>url</key>
+			<string>http://www.youtube.com/watch?v=XLb49AgxrKQ</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<string>Triangle, Left, Right, Right, L2, L1, Square</string>
+			<key>description</key>
+			<string></string>
+			<key>name</key>
+			<string>Fast Run</string>
+			<key>type</key>
+			<string>player</string>
+			<key>url</key>
+			<string>http://www.youtube.com/watch?v=K-_5WWmJFtc</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<string>Left, Left, L1, Right, Right, R2, Left, L2, Right</string>
+			<key>description</key>
+			<string>Increases Swim Speed</string>
+			<key>name</key>
+			<string>Fast Swim</string>
+			<key>type</key>
+			<string>player</string>
+			<key>url</key>
+			<string>http://www.youtube.com/watch?v=9CS6FF_rY5U</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<string>L2, L2, Square, O, O, L2, Square, Square, Left, Right, X</string>
+			<key>description</key>
+			<string>Hold Jump button to go higher</string>
+			<key>name</key>
+			<string>Super Jump</string>
+			<key>type</key>
+			<string>player</string>
+			<key>url</key>
+			<string>http://www.youtube.com/watch?v=9-fUj4QZO5s</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<string>L1, R1, Square, R1, Left, R2, R1, Left, Square, Right, L1, L1</string>
+			<key>description</key>
+			<string></string>
+			<key>name</key>
+			<string>Flaming Bullets</string>
+			<key>type</key>
+			<string>player</string>
+			<key>url</key>
+			<string>http://www.youtube.com/watch?v=pBcIDcAKaG8</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<string>R1, R1, O, R2, Right, Left, Right, Left, Right, Left</string>
+			<key>description</key>
+			<string></string>
+			<key>name</key>
+			<string>Lower Wanted Level</string>
+			<key>type</key>
+			<string>player</string>
+			<key>url</key>
+			<string>http://www.youtube.com/watch?v=_U2hHMa-LaI</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<string>R1, R1, O, R2, Left, Right, Left, Right, Left, Right</string>
+			<key>description</key>
+			<string></string>
+			<key>name</key>
+			<string>Raise Wanted Level</string>
+			<key>type</key>
+			<string>player</string>
+			<key>url</key>
+			<string>http://www.youtube.com/watch?v=_U2hHMa-LaI</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<string>X, X, Square, R1, L1, X, Right, Left, X</string>
+			<key>description</key>
+			<string></string>
+			<key>name</key>
+			<string>Recharge Ability</string>
+			<key>type</key>
+			<string>player</string>
+			<key>url</key>
+			<string>http://www.youtube.com/watch?v=aZPguO8B2fs</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<string>Square, L2, R1, Triangle, Left, Square, L2, Right, X</string>
+			<key>description</key>
+			<string>Enter up to 3 times to increase effect. Entering for a 4th time will disable the effect.</string>
+			<key>name</key>
+			<string>Slow Motion Aim</string>
+			<key>type</key>
+			<string>player</string>
+			<key>url</key>
+			<string>http://www.youtube.com/watch?v=U8znnLd7HZU</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<string>L1, L2, R1, R2, Left, Right, Left, Right, L1, L2, R1, R2, Left, Right, Left, Right</string>
+			<key>description</key>
+			<string>Fall from the sky. Make sure you have a parachute or make sure you land straight on your head to survive (see video)</string>
+			<key>name</key>
+			<string>Skyfall</string>
+			<key>type</key>
+			<string>player</string>
+			<key>url</key>
+			<string>http://www.youtube.com/watch?v=PXXIC4oO8aA</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<string>Left, Right, L1, L2, R1, R2, R2, Left, Left, Right, L1</string>
+			<key>description</key>
+			<string></string>
+			<key>name</key>
+			<string>Get a Parachute</string>
+			<key>type</key>
+			<string>player</string>
+			<key>url</key>
+			<string>http://www.youtube.com/watch?v=VRNcyE1hZB0</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<string>R2, X, L1, L1, L2, L2, L2, Square</string>
+			<key>description</key>
+			<string>Rotates through: sunny, clear, cloudy, smoggy, overcast, rainy, thundery, clearing and snowing</string>
+			<key>name</key>
+			<string>Change Weather</string>
+			<key>type</key>
+			<string>world</string>
+			<key>url</key>
+			<string>http://www.youtube.com/watch?v=zt-WcJhUYt0</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<string>Triangle, R1, R1, Left, R1, L1, R2, L1</string>
+			<key>description</key>
+			<string></string>
+			<key>name</key>
+			<string>Slippery Cars</string>
+			<key>type</key>
+			<string>world</string>
+			<key>url</key>
+			<string>http://www.youtube.com/watch?v=9X6R32mQWCY</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<string>Triangle, Left, Right, Right, Square, R2, R1</string>
+			<key>description</key>
+			<string>Enter up to 3 times to increase effect. Entering for a 4th time will disable the effect</string>
+			<key>name</key>
+			<string>Slow Motion</string>
+			<key>type</key>
+			<string>world</string>
+			<key>url</key>
+			<string>http://www.youtube.com/watch?v=Qk8z230u_yk</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<string>Left, Left, L1, R1, L1, Right, Left, L1, Left</string>
+			<key>description</key>
+			<string>After activating this cheat you will experience low gravity after entering a vehicle. Exiting the vehicle will disable the cheat.</string>
+			<key>name</key>
+			<string>Moon Gravity</string>
+			<key>type</key>
+			<string>world</string>
+			<key>url</key>
+			<string>http://www.youtube.com/watch?v=-A9I0xKDJCs</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<string>O, O, L1, O, O, O, L1, L2, R1, Triangle, O, Triangle</string>
+			<key>description</key>
+			<string></string>
+			<key>name</key>
+			<string>Spawn Buzzard</string>
+			<key>type</key>
+			<string>vehicle</string>
+			<key>url</key>
+			<string>http://www.youtube.com/watch?v=ZuCDJG7GsqA</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<string>O, L1, Left, R1, L2, X, R1, L1, O, X</string>
+			<key>description</key>
+			<string></string>
+			<key>name</key>
+			<string>Spawn Caddy</string>
+			<key>type</key>
+			<string>vehicle</string>
+			<key>url</key>
+			<string>http://www.youtube.com/watch?v=-IgAwQaT868</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<string>R1, O, R2, Right, L1, L2, X, X, Square, R1</string>
+			<key>description</key>
+			<string></string>
+			<key>name</key>
+			<string>Spawn Comet</string>
+			<key>type</key>
+			<string>vehicle</string>
+			<key>url</key>
+			<string>http://www.youtube.com/watch?v=WKrkNFpfE04</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<string>Right, Left, R1, R1, R1, Left, Triangle, Triangle, X, O, L1, L1</string>
+			<key>description</key>
+			<string></string>
+			<key>name</key>
+			<string>Spawn Duster</string>
+			<key>type</key>
+			<string>vehicle</string>
+			<key>url</key>
+			<string>http://www.youtube.com/watch?v=VAiDCTz3S08</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<string>R2, Right, L2, Left, Left, R1, L1, O, Right</string>
+			<key>description</key>
+			<string></string>
+			<key>name</key>
+			<string>Spawn Limo</string>
+			<key>type</key>
+			<string>vehicle</string>
+			<key>url</key>
+			<string>http://www.youtube.com/watch?v=OaUMVJzkpkQ</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<string>Left, Left, Right, Right, Left, Right, Square, O, Triangle, R1, R2</string>
+			<key>description</key>
+			<string>Spawns a BMX pedal bike</string>
+			<key>name</key>
+			<string>Spawn BMX</string>
+			<key>type</key>
+			<string>vehicle</string>
+			<key>url</key>
+			<string>http://www.youtube.com/watch?v=rou6wEPaDKM</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<string>R1, Right, Left, Right, R2, Left, Right, Square, Right, L2, L1, L1</string>
+			<key>description</key>
+			<string></string>
+			<key>name</key>
+			<string>Spawn PCJ-600</string>
+			<key>type</key>
+			<string>vehicle</string>
+			<key>url</key>
+			<string>http://www.youtube.com/watch?v=d2yMY2IsElE</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<string>R2, L1, O, Right, L1, R1, Right, Left, O, R2</string>
+			<key>description</key>
+			<string></string>
+			<key>name</key>
+			<string>Spawn Rapid GT</string>
+			<key>type</key>
+			<string>vehicle</string>
+			<key>url</key>
+			<string>http://www.youtube.com/watch?v=pEHlatHU2kI</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<string>O, X, L1, O, O, L1, O, R1, R2, L2, L1, L1</string>
+			<key>description</key>
+			<string></string>
+			<key>name</key>
+			<string>Spawn Sanchez</string>
+			<key>type</key>
+			<string>vehicle</string>
+			<key>url</key>
+			<string>http://www.youtube.com/watch?v=h9R4d7PIyfU</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<string>O, Right, L1, L2, Left, R1, L1, L1, Left, Left, X, Triangle</string>
+			<key>description</key>
+			<string></string>
+			<key>name</key>
+			<string>Spawn Stunt Plane</string>
+			<key>type</key>
+			<string>vehicle</string>
+			<key>url</key>
+			<string>http://www.youtube.com/watch?v=TMBsz795Pm0</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<string>O, R1, O, R1, Left, Left, R1, L1, O, Right</string>
+			<key>description</key>
+			<string></string>
+			<key>name</key>
+			<string>Spawn Trashmaster</string>
+			<key>type</key>
+			<string>vehicle</string>
+			<key>url</key>
+			<string>http://www.youtube.com/watch?v=D40RoaRSS3M</string>
+		</dict>
+	</array>
+	<key>xbox</key>
+	<array>
+		<dict>
+			<key>code</key>
+			<string>Right, A, Right, Left, Right, RB, Right, Left, A, Y</string>
+			<key>description</key>
+			<string>Lasts for 5 minutes before deactivating. Simply re-enter the code to reactivate.</string>
+			<key>name</key>
+			<string>Invincibility</string>
+			<key>type</key>
+			<string>player</string>
+			<key>url</key>
+			<string>http://www.youtube.com/watch?v=aq__oJ1_4CA</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<string>Y, RT, Left, LB, A, Right, Y, Down, X, LB, LB, LB</string>
+			<key>description</key>
+			<string></string>
+			<key>name</key>
+			<string>Weapons</string>
+			<key>type</key>
+			<string>player</string>
+			<key>url</key>
+			<string>http://www.youtube.com/watch?v=2z1c2qmge6U</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<string>B, LB, Y, RT, A, X, B, Right, X, LB, LB, LB</string>
+			<key>description</key>
+			<string></string>
+			<key>name</key>
+			<string>Max Health and Armor</string>
+			<key>type</key>
+			<string>player</string>
+			<key>url</key>
+			<string>http://www.youtube.com/watch?v=PsGqF8PnbQ0</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<string>Y, Right, Right, Left, Right, X, B, Left</string>
+			<key>description</key>
+			<string></string>
+			<key>name</key>
+			<string>Drunk Mode</string>
+			<key>type</key>
+			<string>player</string>
+			<key>url</key>
+			<string>http://www.youtube.com/watch?v=P8D5cDXv3-g</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<string>Right, X, A, Left, RB, RT, Left, Right, Right, LB, LB, LB</string>
+			<key>description</key>
+			<string>Guns fire explosive bullets.</string>
+			<key>name</key>
+			<string>Explosive Ammo Rounds</string>
+			<key>type</key>
+			<string>player</string>
+			<key>url</key>
+			<string>http://www.youtube.com/watch?v=fSKhJBUc3Tg</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<string>Right, Left, A, Y, RB, B, B, B, LT</string>
+			<key>description</key>
+			<string></string>
+			<key>name</key>
+			<string>Explosive Melee Attacks</string>
+			<key>type</key>
+			<string>player</string>
+			<key>url</key>
+			<string>http://www.youtube.com/watch?v=XLb49AgxrKQ</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<string>Y, Left, Right, Right, LT, LB, X</string>
+			<key>description</key>
+			<string></string>
+			<key>name</key>
+			<string>Fast Run</string>
+			<key>type</key>
+			<string>player</string>
+			<key>url</key>
+			<string>http://www.youtube.com/watch?v=K-_5WWmJFtc</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<string>Left, Left, LB, Right, Right, RT, Left, LT, Right</string>
+			<key>description</key>
+			<string>Increases Swim Speed</string>
+			<key>name</key>
+			<string>Fast Swim</string>
+			<key>type</key>
+			<string>player</string>
+			<key>url</key>
+			<string>http://www.youtube.com/watch?v=9CS6FF_rY5U</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<string>Left, Left, Y, Y, Right, Right, Left, Right, X, RB, RT</string>
+			<key>description</key>
+			<string>Hold Jump button to go higher</string>
+			<key>name</key>
+			<string>Super Jump</string>
+			<key>type</key>
+			<string>player</string>
+			<key>url</key>
+			<string>http://www.youtube.com/watch?v=9-fUj4QZO5s</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<string>LB, RB, X, RB, Left, RT, RB, Left, X, Right, LB, LB</string>
+			<key>description</key>
+			<string></string>
+			<key>name</key>
+			<string>Flaming Bullets</string>
+			<key>type</key>
+			<string>player</string>
+			<key>url</key>
+			<string>http://www.youtube.com/watch?v=pBcIDcAKaG8</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<string>RB, RB, B, RT, Right, Left, Right, Left, Right, Left</string>
+			<key>description</key>
+			<string></string>
+			<key>name</key>
+			<string>Lower Wanted Level</string>
+			<key>type</key>
+			<string>player</string>
+			<key>url</key>
+			<string>http://www.youtube.com/watch?v=_U2hHMa-LaI</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<string>RB, RB, B, RT, Left, Right, Left, Right, Left, Right</string>
+			<key>description</key>
+			<string></string>
+			<key>name</key>
+			<string>Raise Wanted Level</string>
+			<key>type</key>
+			<string>player</string>
+			<key>url</key>
+			<string>http://www.youtube.com/watch?v=_U2hHMa-LaI</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<string>A, A, X, RB, LB, A, Right, Left, A</string>
+			<key>description</key>
+			<string></string>
+			<key>name</key>
+			<string>Recharge Ability</string>
+			<key>type</key>
+			<string>player</string>
+			<key>url</key>
+			<string>http://www.youtube.com/watch?v=aZPguO8B2fs</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<string>X, LT, RB, Y, Left, X, LT, Right, A</string>
+			<key>description</key>
+			<string>Enter up to 3 times to increase effect. Entering for a 4th time will disable the effect.</string>
+			<key>name</key>
+			<string>Slow Motion Aim</string>
+			<key>type</key>
+			<string>player</string>
+			<key>url</key>
+			<string>http://www.youtube.com/watch?v=U8znnLd7HZU</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<string>LB, LT, RB, RT, Left, Right, Left, Right, LB, LT, RB, RT, Left, Right, Left, Right</string>
+			<key>description</key>
+			<string>Fall from the sky. Make sure you have a parachute or make sure you land straight on your head to survive (see video)</string>
+			<key>name</key>
+			<string>Skyfall</string>
+			<key>type</key>
+			<string>player</string>
+			<key>url</key>
+			<string>http://www.youtube.com/watch?v=PXXIC4oO8aA</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<string>Left, Right, LB, LT, RB, RT, RT, Left, Left, Right, LB</string>
+			<key>description</key>
+			<string></string>
+			<key>name</key>
+			<string>Get a Parachute</string>
+			<key>type</key>
+			<string>player</string>
+			<key>url</key>
+			<string>http://www.youtube.com/watch?v=VRNcyE1hZB0</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<string>RT, A, LB, LB, LT, LT, LT, X</string>
+			<key>description</key>
+			<string>Rotates through: sunny, clear, cloudy, smoggy, overcast, rainy, thundery, clearing and snowing</string>
+			<key>name</key>
+			<string>Change Weather</string>
+			<key>type</key>
+			<string>world</string>
+			<key>url</key>
+			<string>http://www.youtube.com/watch?v=zt-WcJhUYt0</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<string>Y, RB, RB, Left, RB, LB, RT, LB</string>
+			<key>description</key>
+			<string></string>
+			<key>name</key>
+			<string>Slippery Cars</string>
+			<key>type</key>
+			<string>world</string>
+			<key>url</key>
+			<string>http://www.youtube.com/watch?v=9X6R32mQWCY</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<string>Y, Left, Right, Right, X, RT, RB</string>
+			<key>description</key>
+			<string>Enter up to 3 times to increase effect. Entering for a 4th time will disable the effect</string>
+			<key>name</key>
+			<string>Slow Motion</string>
+			<key>type</key>
+			<string>world</string>
+			<key>url</key>
+			<string>http://www.youtube.com/watch?v=Qk8z230u_yk</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<string>Left, Left, LB, RB, LB, Right, Left, LB, Left</string>
+			<key>description</key>
+			<string>After activating this cheat you will experience low gravity after entering a vehicle. Exiting the vehicle will disable the cheat.</string>
+			<key>name</key>
+			<string>Moon Gravity</string>
+			<key>type</key>
+			<string>world</string>
+			<key>url</key>
+			<string>http://www.youtube.com/watch?v=-A9I0xKDJCs</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<string>B, B, LB, B, B, B, LB, LT, RB, Y, B, Y</string>
+			<key>description</key>
+			<string></string>
+			<key>name</key>
+			<string>Spawn Buzzard</string>
+			<key>type</key>
+			<string>vehicle</string>
+			<key>url</key>
+			<string>http://www.youtube.com/watch?v=ZuCDJG7GsqA</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<string>B, LB, Left, RB, LT, A, RB, LB, B, A</string>
+			<key>description</key>
+			<string></string>
+			<key>name</key>
+			<string>Spawn Caddy</string>
+			<key>type</key>
+			<string>vehicle</string>
+			<key>url</key>
+			<string>http://www.youtube.com/watch?v=-IgAwQaT868</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<string>RB, B, RT, Right, LB, LT, A, A, X, RB</string>
+			<key>description</key>
+			<string></string>
+			<key>name</key>
+			<string>Spawn Comet</string>
+			<key>type</key>
+			<string>vehicle</string>
+			<key>url</key>
+			<string>http://www.youtube.com/watch?v=WKrkNFpfE04</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<string>Right, Left, RB, RB, RB, Left, Y, Y, A, B, LB, LB</string>
+			<key>description</key>
+			<string></string>
+			<key>name</key>
+			<string>Spawn Duster</string>
+			<key>type</key>
+			<string>vehicle</string>
+			<key>url</key>
+			<string>http://www.youtube.com/watch?v=VAiDCTz3S08</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<string>RT, Right, LT, Left, Left, RB, LB, B, Right</string>
+			<key>description</key>
+			<string></string>
+			<key>name</key>
+			<string>Spawn Limo</string>
+			<key>type</key>
+			<string>vehicle</string>
+			<key>url</key>
+			<string>http://www.youtube.com/watch?v=OaUMVJzkpkQ</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<string>Left, Left, Right, Right, Left, Right, X, B, Y, RB, RT</string>
+			<key>description</key>
+			<string>Spawns a BMX pedal bike</string>
+			<key>name</key>
+			<string>Spawn BMX</string>
+			<key>type</key>
+			<string>vehicle</string>
+			<key>url</key>
+			<string>http://www.youtube.com/watch?v=rou6wEPaDKM</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<string>RB, Right, Left, Right, RT, Left, Right, X, Right, LT, LB, LB</string>
+			<key>description</key>
+			<string></string>
+			<key>name</key>
+			<string>Spawn PCJ-600</string>
+			<key>type</key>
+			<string>vehicle</string>
+			<key>url</key>
+			<string>http://www.youtube.com/watch?v=d2yMY2IsElE</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<string>RT, LB, B, Right, LB, RB, Right, Left, B, RT</string>
+			<key>description</key>
+			<string></string>
+			<key>name</key>
+			<string>Spawn Rapid GT</string>
+			<key>type</key>
+			<string>vehicle</string>
+			<key>url</key>
+			<string>http://www.youtube.com/watch?v=pEHlatHU2kI</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<string>B, A, LB, B, B, LB, B, RB, RT, LT, LB, LB</string>
+			<key>description</key>
+			<string></string>
+			<key>name</key>
+			<string>Spawn Sanchez</string>
+			<key>type</key>
+			<string>vehicle</string>
+			<key>url</key>
+			<string>http://www.youtube.com/watch?v=h9R4d7PIyfU</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<string>B, Right, LB, LT, Left, RB, LB, LB, Left, Left, A, Y</string>
+			<key>description</key>
+			<string></string>
+			<key>name</key>
+			<string>Spawn Stunt Plane</string>
+			<key>type</key>
+			<string>vehicle</string>
+			<key>url</key>
+			<string>http://www.youtube.com/watch?v=TMBsz795Pm0</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<string>B, RB, B, RB, Left, Left, RB, LB, B, Right</string>
+			<key>description</key>
+			<string></string>
+			<key>name</key>
+			<string>Spawn Trashmaster</string>
+			<key>type</key>
+			<string>vehicle</string>
+			<key>url</key>
+			<string>http://www.youtube.com/watch?v=D40RoaRSS3M</string>
+		</dict>
+	</array>
+</dict>
+</plist>

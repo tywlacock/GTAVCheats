@@ -34,46 +34,30 @@
 
 @implementation PS3ViewController
 // --------------------------------------------------
-// Data Request Methods
+#pragma mark - Data loading
 // --------------------------------------------------
-- (void)makeJSONRequest
-{
-    NSString *cheatKey = [[NSString alloc] init];
-    NSString *filePath = [NSHomeDirectory() stringByAppendingPathComponent:@"Documents"];
-    
+
+
+- (void)loadData {
+    NSString *plistCatPath = [[NSBundle mainBundle] pathForResource:@"cheats" ofType:@"plist"];
+    NSDictionary *cheatsDict = [[NSDictionary alloc] initWithContentsOfFile:plistCatPath];
     
     if ([self.navigationItem.title  isEqual: @"PS3 Cheats"]) {
-         cheatKey = @"ps3";
+        self.cheatsArray = cheatsDict[@"ps3"];
     } else {
-        cheatKey = @"xbox";
+        self.cheatsArray = cheatsDict[@"xbox"];
     }
-    
-    AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
-    [manager GET:@"http://www.tylacock.com/cheats.json" parameters:nil
-         success:^(AFHTTPRequestOperation *operation, id responseObject) {
-             self.jsonFromAFNetworking = [responseObject objectForKey:cheatKey];
-             [self.jsonFromAFNetworking writeToFile:filePath atomically:YES];
-             [self.tableView reloadData];
-         }
-         failure:^(AFHTTPRequestOperation *operation, NSError *error) {
-             NSLog(@"Error: %@", error);
-    }];
-    
-    
 }
 
+// --------------------------------------------------
+#pragma mark - Initial things
+// --------------------------------------------------
 
-// --------------------------------------------------
-// Initializor Methods
-// --------------------------------------------------
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [self makeJSONRequest];
+    [self loadData];
     [self.tableView setSeparatorStyle:UITableViewCellSeparatorStyleNone];
-    
-    
-    
 }
 
 - (void)didReceiveMemoryWarning
@@ -84,9 +68,9 @@
 
 
 // --------------------------------------------------
-// Data Source Methods
+#pragma mark - Data Source Methods
 // --------------------------------------------------
-#pragma mark - Table view data source
+
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
@@ -95,39 +79,41 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    // Return the number of rows in the section.
-    return [self.jsonFromAFNetworking count];
+    return [self.cheatsArray count];
 }
 
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
-{
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     static NSString *CellIdentifier = @"Cell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
-    // Configure the cell...
-    NSDictionary *tempDict = [self.jsonFromAFNetworking objectAtIndex:indexPath.row];
-    
-    if ([[tempDict objectForKey:@"type"] isEqualToString:@"player"]) {
+    // Set the correct color of the label based on cheat type
+    if ([self.cheatsArray[indexPath.row][@"type"] isEqualToString:@"player"]) {
         cell.textLabel.textColor = [UIColor colorWithRed:52.0/255.0 green:152.0/255.0 blue:219.0/255.0 alpha:1.0];
-    } else if ([[tempDict objectForKey:@"type"] isEqualToString:@"world"]) {
+    } else if ([self.cheatsArray[indexPath.row][@"type"] isEqualToString:@"world"]) {
         cell.textLabel.textColor = [UIColor colorWithRed:46.0/255.0 green:204.0/255.0 blue:113.0/255.0 alpha:1.0];
     } else {
         cell.textLabel.textColor = [UIColor colorWithRed:243.0/255.0 green:156.0/255.0 blue:18.0/255.0 alpha:1.0];
     }
     
-    cell.textLabel.text = [tempDict objectForKey:@"name"];
-    cell.detailTextLabel.text = [tempDict objectForKey:@"code"];
+    
+    // Configure the cell
+    cell.textLabel.text = self.cheatsArray[indexPath.row][@"name"];
+    cell.detailTextLabel.text = self.cheatsArray[indexPath.row][@"code"];
     
     
     return cell;
 }
 
+// --------------------------------------------------
+#pragma mark - Segue
+// --------------------------------------------------
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
     CheatDetailViewController *cheatDetailViewController = (CheatDetailViewController *)segue.destinationViewController;
-    cheatDetailViewController.cheatDetail = [self.jsonFromAFNetworking objectAtIndex:indexPath.row];
+    cheatDetailViewController.cheatDetail = [self.cheatsArray objectAtIndex:indexPath.row];
 }
 
 @end
